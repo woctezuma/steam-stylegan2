@@ -12,7 +12,7 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 
 The dataset consists of 14,035 Steam banners with RGB channels and resized from 300x450 to 128x128 resolution.
 
-> WIP: investigate the out-of-memory crash after the first iteration.
+> Work-in-progress
 
 ## References
 
