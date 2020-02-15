@@ -16,7 +16,14 @@ The dataset consists of 14,035 Steam banners with RGB channels and resized from 
 
 ## References
 
--   [StyleGAN2](https://github.com/NVlabs/stylegan2)
--   [StyleGAN1](https://github.com/NVlabs/stylegan)
--   [Steam-StyleGAN1](https://github.com/woctezuma/steam-stylegan)
--   [Steam-DCGAN](https://github.com/woctezuma/google-colab)
+-   StyleGAN2:
+    -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
+    -   [Projecting images to latent space with StyleGAN2](https://github.com/woctezuma/stylegan2-projecting-images)
+    -   [My fork](https://github.com/woctezuma/stylegan2)
+    -   Interesting forks:
+        - TODO
+-   StyleGAN:
+    -   [StyleGAN1](https://github.com/NVlabs/stylegan)
+    -   [Steam-StyleGAN1](https://github.com/woctezuma/steam-stylegan)
+-   DCGAN:    
+    -   [Steam-DCGAN](https://github.com/woctezuma/google-colab)
