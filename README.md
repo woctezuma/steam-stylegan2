@@ -18,6 +18,7 @@ The dataset consists of 14,035 Steam banners with RGB channels and resized from 
 
 -   StyleGAN2:
     -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
+    -   [StyleGAN2 in PyTorch](https://github.com/lucidrains/stylegan2-pytorch)
     -   [Projecting images to latent space with StyleGAN2](https://github.com/woctezuma/stylegan2-projecting-images)
     -   [My fork](https://github.com/woctezuma/stylegan2)
     -   Interesting forks:
