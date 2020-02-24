@@ -4,13 +4,13 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 
 ## Usage
 
--   Acquire the data, e.g. as a snapshot called `128x128.zip` in [another of my repositories](https://github.com/woctezuma/download-steam-banners-data),
+-   Acquire the data, e.g. as a snapshot called `256x256.zip` in [another of my repositories](https://github.com/woctezuma/download-steam-banners-data),
 -   Run `StyleGAN2.ipynb` to train a StyleGAN2.
 -   To resume training from a checkpoint, you will have to edit `training/training_loop.py`.
 
 ## Results
 
-The dataset consists of 14,035 Steam banners with RGB channels and resized from 300x450 to 128x128 resolution.
+The dataset consists of 14,035 Steam banners with RGB channels and resized from 300x450 to 256x256 resolution.
 
 > Work-in-progress
 
