@@ -20,7 +20,7 @@ The dataset consists of 14,035 Steam banners with RGB channels and resized from 
     -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
     -   [StyleGAN2 in PyTorch](https://github.com/lucidrains/stylegan2-pytorch)
     -   [Projecting images to latent space with StyleGAN2](https://github.com/woctezuma/stylegan2-projecting-images)
-    -   [My fork](https://github.com/woctezuma/stylegan2)
+    -   [My fork](https://github.com/woctezuma/stylegan2/tree/google-colab)
     -   Interesting forks:
         - [skyflynil/stylegan2](https://github.com/skyflynil/stylegan2): automatically [resume](https://github.com/NVlabs/stylegan2/commit/8c57ee4633d334e480a23d7f82433c7649d50866) from the latest snapshot, allow non-square images, add vertical mirror augmentation,
         - [rolux/stylegan2encoder](https://github.com/rolux/stylegan2encoder): align faces based on detected landmarks (same as FFHQ pre-processing) then project to latent space,
