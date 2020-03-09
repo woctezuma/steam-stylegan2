@@ -24,3 +24,6 @@ The dataset consists of 14,035 Steam banners with RGB channels and resized from 
     -   [Steam-StyleGAN1](https://github.com/woctezuma/steam-stylegan)
 -   DCGAN:    
     -   [Steam-DCGAN](https://github.com/woctezuma/google-colab)
+-   Detailed tutorials:
+    -   [This Waifu Does Not Exist](https://www.gwern.net/TWDNE)
+    -   [Making Anime Faces With StyleGAN](https://www.gwern.net/Faces)
