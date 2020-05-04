@@ -64,40 +64,33 @@ Moreover, a directory of 1000 generated images is shared on Google Drive:
 
 ### Projection of real Steam banners to latent space
 
-A directory of projections of real Steam banners to latent space is shared on [Google Drive][projection-to-latent-space].
+Real Steam banners can be [projected][projection-github-project] to latent space.
+Projections obtained with 23 popular games are shown on [the Wiki](https://github.com/woctezuma/steam-stylegan2/wiki/Projection).
+A directory with similar data is also shared on [Google Drive][projection-to-latent-space].
 
-The real Steam banners are tied to the following appIDs:
--   10, # Counter-Strike
--   105600, # Terraria
--   220, # Half-Life 2
--   240, # Counter-Strike: Source
--   252950, # Rocket League®
--   271590, # Grand Theft Auto V
--   292030, # The Witcher® 3: Wild Hunt
--   304930, # Unturned
--   377160, # Fallout 4
--   400, # Portal
--   4000, # Garry's Mod
--   440, # Team Fortress 2
--   48000, # LIMBO
--   550, # Left 4 Dead 2
--   570, # Dota 2
--   578080, # PLAYERUNKNOWN'S BATTLEGROUNDS
--   60, # Ricochet
--   620, # Portal 2
--   70, # Half-Life
--   72850, # The Elder Scrolls V: Skyrim
--   730, # Counter-Strike: Global Offensive
--   863550, # HITMAN™ 2
--   8870, # BioShock Infinite
+Each row corresponds to a different game.
+From left to right, the columns correspond to :
+1.  the generated image obtained at the start of the projection,
+2.  the generated image obtained at the end of the projection,
+3.  the target (real) image.
 
-TODO
+<img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0002-step0200.jpg" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0002-step1000.jpg" width="250"><img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0002-target.jpg" width="250">
+
+<img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0003-step0200.jpg" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0003-step1000.jpg" width="250"><img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0003-target.jpg" width="250">
+
+<img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0008-step0200.jpg" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0008-step1000.jpg" width="250"><img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0008-target.jpg" width="250">
+
+<img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0012-step0200.jpg" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0012-step1000.jpg" width="250"><img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0012-target.jpg" width="250">
+
+<img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0017-step0200.jpg" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0017-step1000.jpg" width="250"><img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0017-target.jpg" width="250">
+
+<img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0020-step0200.jpg" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0020-step1000.jpg" width="250"><img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0020-target.jpg" width="250">
 
 ## References
 
 -   StyleGAN2:
     -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
-    -   [Projecting images to latent space with StyleGAN2](https://github.com/woctezuma/stylegan2-projecting-images)
+    -   [Projecting images to latent space with StyleGAN2][projection-github-project]
 -   StyleGAN:
     -   [StyleGAN1](https://github.com/NVlabs/stylegan)
     -   [Steam-StyleGAN1](https://github.com/woctezuma/steam-stylegan)
@@ -113,3 +106,4 @@ TODO
 [google-drive-without-truncation]: <https://drive.google.com/open?id=1hCH4y1a9NhXkmgDc6mqnBRdwolsmttg2>
 [google-drive-with-truncation]: <https://drive.google.com/open?id=1zvnkPz0mKusrGW6TojFOrZjiqYAKi6sn>
 [projection-to-latent-space]: <https://drive.google.com/open?id=14Uz3SbOL0G4aLK1AmHye9bJCmOufDdbn>
+[projection-github-project]: <https://github.com/woctezuma/stylegan2-projecting-images>
