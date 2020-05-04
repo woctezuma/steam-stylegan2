@@ -1,6 +1,6 @@
 # Steam StyleGAN2
 
-![Examples of generated Steam banners](https://github.com/woctezuma/steam-stylegan/wiki/steam-stylegan2/img/generated_banners.jpg)
+![Examples of generated Steam banners](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/generated_banners.jpg)
 
 The goal of this [Google Colab](https://colab.research.google.com/) notebook is to catpure the distribution of Steam banners and sample with a StyleGAN2.
 
@@ -43,10 +43,10 @@ During training, checkpoints of the model are saved every thousand epochs, and s
 ### Generated Steam banners
 
 A grid of generated Steam banners is shown below:
-![Generated Steam banners](https://github.com/woctezuma/steam-stylegan/wiki/steam-stylegan2/img/results/fakes005000.jpg)
+![Generated Steam banners](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/results/fakes005000.jpg)
 
 For comparison, here is a grid of real Steam banners:
-![Real Steam banners](https://github.com/woctezuma/steam-stylegan/wiki/steam-stylegan2/img/results/reals.jpg)
+![Real Steam banners](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/results/reals.jpg)
 
 Moreover, a directory of 1000 generated images is shared on Google Drive:
 -   [without truncation][google-drive-without-truncation],
