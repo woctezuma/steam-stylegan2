@@ -7,7 +7,8 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 ## Usage
 
 -   Acquire the data, e.g. as a snapshot called `256x256.zip` in [another of my repositories](https://github.com/woctezuma/download-steam-banners-data),
--   Run `StyleGAN2.ipynb` to train a StyleGAN2.
+-   Run `StyleGAN2_training.ipynb` to train a StyleGAN2 model from scratch,
+-   Run `StyleGAN2_image_sampling.ipynb` to generate images with a trained StyleGAN2 model,
 -   To automatically resume training from the latest checkpoint, you will have to use [my fork](https://github.com/woctezuma/stylegan2/tree/google-colab) of StyleGAN2.
 
 ## Data
