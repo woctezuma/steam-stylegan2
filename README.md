@@ -66,12 +66,12 @@ In [this folder][google-drive-truncation-comparison], 25 side-by-side comparison
 
 A few examples are shown below:
 
-![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0001.png)
-![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0041.png)
-![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0208.png)
-![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0322.png)
-![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0424.png)
-![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0939.png)
+![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0001.jpg)
+![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0041.jpg)
+![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0208.jpg)
+![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0322.jpg)
+![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0424.jpg)
+![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0939.jpg)
 
 ### Style Mixing
 
