@@ -59,6 +59,20 @@ NB: The term 'truncation' refers to the truncation trick mentioned in Appendix B
 
 > If we consider the distribution of training data, it is clear that areas of low density are poorly represented and thus likely to be difficult for the generator to learn. This is a significant open problem in all generative modeling techniques. However, it is known that drawing latent vectors from a truncated [42, 5] or otherwise shrunk [34] sampling space tends to improve average image quality, although some amount of variation is lost.
 
+The influence of truncation can be studied with side-by-side comparison of generated images.
+In [this folder][google-drive-truncation-comparison], 25 side-by-side comparisons are provided:
+- images to the left are obtained without truncation,
+- images to the right are obtained with the same seed and with truncation.
+
+A few examples are shown below:
+
+![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0001.png)
+![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0041.png)
+![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0208.png)
+![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0322.png)
+![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0424.png)
+![Influence of truncation](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/truncation_comparison/seed0939.png)
+
 ### Style Mixing
 
 In the grids below, styles from the first row and first column are mixed.
@@ -122,5 +136,6 @@ The title position is usually correct, even though the letters appear as gibberi
 [google-drive-checkpoints]: <https://drive.google.com/drive/folders/1bf17M5HtqdWYhxhCzo1YCEr9fdS84NO6>
 [google-drive-without-truncation]: <https://drive.google.com/open?id=1hCH4y1a9NhXkmgDc6mqnBRdwolsmttg2>
 [google-drive-with-truncation]: <https://drive.google.com/open?id=1zvnkPz0mKusrGW6TojFOrZjiqYAKi6sn>
+[google-drive-truncation-comparison]: <https://drive.google.com/drive/folders/1itOMCX6h62OWpUCBxmUWcrKh0lSXxSGQ>
 [projection-to-latent-space]: <https://drive.google.com/open?id=14Uz3SbOL0G4aLK1AmHye9bJCmOufDdbn>
 [projection-github-project]: <https://github.com/woctezuma/stylegan2-projecting-images>
