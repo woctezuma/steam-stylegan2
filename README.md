@@ -43,6 +43,8 @@ During training, checkpoints of the model are saved every thousand epochs, and s
 
 ### Generated Steam banners
 
+The generated images are diverse, in terms of configuration and color palettes. Interestingly, it seems that an anime character (with large eyes, hair, mouth, ear and nose) has been learnt.
+
 A grid of generated Steam banners is shown below:
 ![Generated Steam banners](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/results/fakes005000.jpg)
 
@@ -58,6 +60,14 @@ NB: The term 'truncation' refers to the truncation trick mentioned in Appendix B
 > If we consider the distribution of training data, it is clear that areas of low density are poorly represented and thus likely to be difficult for the generator to learn. This is a significant open problem in all generative modeling techniques. However, it is known that drawing latent vectors from a truncated [42, 5] or otherwise shrunk [34] sampling space tends to improve average image quality, although some amount of variation is lost.
 
 ### Style Mixing
+
+In the grids below, styles from the first row and first column are mixed.
+
+Similarly to style mixing of faces:
+- the pose and geometrical shapes are similar for images in the same column,
+- the color palette is similar for images in the same row.
+
+With truncation, color palettes are less diverse, which is expected, and seem to be darker.
 
 #### Without truncation
 
@@ -90,6 +100,8 @@ From left to right, the columns correspond to :
 <img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0017-step0200.jpg" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0017-step1000.jpg" width="250"><img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0017-target.jpg" width="250">
 
 <img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0020-step0200.jpg" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0020-step1000.jpg" width="250"><img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/00060-project-real-images/image0020-target.jpg" width="250">
+
+The title position is usually correct, even though the letters appear as gibberish. The color palette is correct. The appearance of characters is rough. For the last case (Hitman), the projected face is interesting, with the mouth, nose, and what appears to be glasses to reproduce the appearance of eyes in the shade.
 
 ## References
 
