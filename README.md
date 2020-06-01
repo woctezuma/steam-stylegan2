@@ -55,7 +55,7 @@ Moreover, a directory of 1000 generated images is shared on Google Drive:
 
 NB: The term 'truncation' refers to the truncation trick mentioned in Appendix B of [the StyleGAN1 paper](https://arxiv.org/abs/1812.04948):
 
-> If we consider the distribution of training data, it is clear that areas of low density are poorly represented and thus likely to be difficult for the generator to learn. This is as ignificant open problem in all generative modeling techniques. However, it is known that drawing latent vectors from a truncated [42, 5] or otherwise shrunk [34] sampling space tends to improve average image quality, although some amount of variation is lost.
+> If we consider the distribution of training data, it is clear that areas of low density are poorly represented and thus likely to be difficult for the generator to learn. This is a significant open problem in all generative modeling techniques. However, it is known that drawing latent vectors from a truncated [42, 5] or otherwise shrunk [34] sampling space tends to improve average image quality, although some amount of variation is lost.
 
 ### Style Mixing
 
