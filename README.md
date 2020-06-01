@@ -83,13 +83,13 @@ Similarly to style mixing of faces:
 - the pose and geometrical shapes are similar for images in the same column,
 - the color palette is similar for images in the same row.
 
-With truncation, color palettes are less diverse, which is expected, and seem to be darker.
-
 #### Without truncation
 
 <img alt="Style Mixing without truncation" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/style-mixing/00058-style-mixing-example_grid.jpg" width="500">
 
 #### With truncation
+
+With truncation, color palettes are less diverse, which is expected, and seem to be darker.
 
 <img alt="Style Mixing with truncation" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/style-mixing/00059-style-mixing-example_grid.jpg" width="500">
 
