@@ -7,8 +7,8 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 ## Usage
 
 -   Acquire the data, e.g. as a snapshot called `256x256.zip` in [another of my repositories](https://github.com/woctezuma/download-steam-banners-data),
--   Run `StyleGAN2_training.ipynb` to train a StyleGAN2 model from scratch,
--   Run `StyleGAN2_image_sampling.ipynb` to generate images with a trained StyleGAN2 model,
+-   Run [`StyleGAN2_training.ipynb`][StyleGAN2_training] to train a StyleGAN2 model from scratch,
+-   Run [`StyleGAN2_image_sampling.ipynb`][StyleGAN2_image_sampling] to generate images with a trained StyleGAN2 model,
 -   To automatically resume training from the latest checkpoint, you will have to use [my fork](https://github.com/woctezuma/stylegan2/tree/google-colab) of StyleGAN2.
 
 ## Data
@@ -141,3 +141,6 @@ The title position is usually correct, even though the letters appear as gibberi
 [google-drive-truncation-comparison]: <https://drive.google.com/drive/folders/1itOMCX6h62OWpUCBxmUWcrKh0lSXxSGQ>
 [projection-to-latent-space]: <https://drive.google.com/open?id=14Uz3SbOL0G4aLK1AmHye9bJCmOufDdbn>
 [projection-github-project]: <https://github.com/woctezuma/stylegan2-projecting-images>
+
+[StyleGAN2_training]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2/blob/master/StyleGAN2_training.ipynb>
+[StyleGAN2_image_sampling]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2/blob/master/StyleGAN2_image_sampling.ipynb>
