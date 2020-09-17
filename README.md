@@ -132,12 +132,12 @@ The title position is usually correct, even though the letters appear as gibberi
 -   Detailed tutorials:
     -   [This Waifu Does Not Exist](https://www.gwern.net/TWDNE)
     -   [Making Anime Faces With StyleGAN](https://www.gwern.net/Faces)
--   Papers about discovering latent directions:
-    - [Shen, Y., & Zhou, B. (2020). Closed-Form Factorization of Latent Semantics in GANs. arXiv preprint arXiv:2007.06600.][closed-form-repository] ([code][closed-form])
-    - [Härkönen, E., Hertzmann, A., Lehtinen, J., & Paris, S. (2020). GANSpace: Discovering Interpretable GAN Controls. arXiv preprint arXiv:2004.02546.][ganspace]
-    - [Voynov, A., & Babenko, A. (2020). Unsupervised Discovery of Interpretable Directions in the GAN Latent Space. arXiv preprint arXiv:2002.03754.][GanLatentDiscovery]
-    - [Pidhorskyi, S., Adjeroh, D., & Doretto, G. (2020). Adversarial Latent Autoencoders. arXiv preprint arXiv:2004.04467.][ALAE]
-    - [Shen, Y., Gu, J., Tang, X., & Zhou, B. (2019). Interpreting the latent space of gans for semantic face editing. arXiv preprint arXiv:1907.10786.][interfacegan]
+-   Preferably unsupervised discovery of latent directions:
+    - [Pidhorskyi, Stanislav, et al. *Adversarial Latent Autoencoders*. CVPR 2020.][ALAE]
+    - [Härkönen, Erik, et al. *GANSpace: Discovering Interpretable GAN Controls*. 2020.][ganspace]
+    - [Shen, Yujun, et al. *Closed-Form Factorization of Latent Semantics in GANs*. 2020.][closed-form-repository] ([code][closed-form])
+    - [Shen, Yujun, et al. *Interpreting the Latent Space of GANs for Semantic Face Editing*. CVPR 2020.]][interfacegan]
+    - [Voynov, Andrey, et al. *Unsupervised Discovery of Interpretable Directions in the GAN Latent Space*. 2020.][GanLatentDiscovery]
 
 <!-- Definitions -->
 
