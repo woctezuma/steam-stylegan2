@@ -136,7 +136,7 @@ The title position is usually correct, even though the letters appear as gibberi
     - [Pidhorskyi, Stanislav, et al. *Adversarial Latent Autoencoders*. CVPR 2020.][ALAE]
     - [Härkönen, Erik, et al. *GANSpace: Discovering Interpretable GAN Controls*. 2020.][ganspace]
     - [Shen, Yujun, et al. *Closed-Form Factorization of Latent Semantics in GANs*. 2020.][closed-form-repository] ([code][closed-form])
-    - [Shen, Yujun, et al. *Interpreting the Latent Space of GANs for Semantic Face Editing*. CVPR 2020.]][interfacegan]
+    - [Shen, Yujun, et al. *Interpreting the Latent Space of GANs for Semantic Face Editing*. CVPR 2020.][interfacegan]
     - [Voynov, Andrey, et al. *Unsupervised Discovery of Interpretable Directions in the GAN Latent Space*. 2020.][GanLatentDiscovery]
 
 <!-- Definitions -->
