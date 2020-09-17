@@ -133,8 +133,9 @@ The title position is usually correct, even though the letters appear as gibberi
     -   [This Waifu Does Not Exist](https://www.gwern.net/TWDNE)
     -   [Making Anime Faces With StyleGAN](https://www.gwern.net/Faces)
 -   Papers about discovering latent directions:
-    - [Shen, Y., & Zhou, B. (2020). Closed-Form Factorization of Latent Semantics in GANs. arXiv preprint arXiv:2007.06600.][closed-form]
+    - [Shen, Y., & Zhou, B. (2020). Closed-Form Factorization of Latent Semantics in GANs. arXiv preprint arXiv:2007.06600.][closed-form-repository] ([code][closed-form])
     - [Härkönen, E., Hertzmann, A., Lehtinen, J., & Paris, S. (2020). GANSpace: Discovering Interpretable GAN Controls. arXiv preprint arXiv:2004.02546.][ganspace]
+    - [Voynov, A., & Babenko, A. (2020). Unsupervised Discovery of Interpretable Directions in the GAN Latent Space. arXiv preprint arXiv:2002.03754.][GanLatentDiscovery]
     - [Pidhorskyi, S., Adjeroh, D., & Doretto, G. (2020). Adversarial Latent Autoencoders. arXiv preprint arXiv:2004.04467.][ALAE]
     - [Shen, Y., Gu, J., Tang, X., & Zhou, B. (2019). Interpreting the latent space of gans for semantic face editing. arXiv preprint arXiv:1907.10786.][interfacegan]
 
@@ -152,4 +153,6 @@ The title position is usually correct, even though the letters appear as gibberi
 [interfacegan]: <https://github.com/genforce/interfacegan>
 [ganspace]: <https://github.com/harskish/ganspace>
 [ALAE]: <https://github.com/podgorskiy/ALAE>
+[GanLatentDiscovery]: <https://github.com/anvoynov/GanLatentDiscovery>
+[closed-form-repository]: <https://github.com/genforce/sefa>
 [closed-form]: <https://github.com/rosinality/stylegan2-pytorch#closed-form-factorization-httpsarxivorgabs200706600>
