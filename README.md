@@ -41,7 +41,9 @@ Given that each tick requires 15 minutes of computation, the total training time
 
 During training, checkpoints of the model are saved every thousand epochs, and shared on [Google Drive][google-drive-checkpoints].
 
-The last snapshot can be directly downloaded from [this link][google-drive-last-checkpoint].
+The last snapshot (`network-snapshot-005000`) can be directly downloaded from the following links for:
+-   [TensorFlow][google-drive-last-checkpoint] (`.pkl`),
+-   [PyTorch][google-drive-last-checkpoint-pytorch] (`.pt`), thanks to a [model-weight converter][weight-converter].
 
 ### Generated Steam banners
 
@@ -144,6 +146,7 @@ The title position is usually correct, even though the letters appear as gibberi
 
 <!-- Definitions -->
 
+[google-drive-last-checkpoint-pytorch]: <https://drive.google.com/file/d/1-2pWoqvSysNuYS8acfhbU9ql4Si09hyf/view?usp=sharing>
 [google-drive-last-checkpoint]: <https://drive.google.com/file/d/1HXczmPE4PMBbhrPOshshnS0KFI4J6jbC/view?usp=sharing>
 [google-drive-checkpoints]: <https://drive.google.com/drive/folders/1bf17M5HtqdWYhxhCzo1YCEr9fdS84NO6>
 [google-drive-without-truncation]: <https://drive.google.com/open?id=1hCH4y1a9NhXkmgDc6mqnBRdwolsmttg2>
