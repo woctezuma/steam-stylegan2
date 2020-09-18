@@ -41,6 +41,8 @@ Given that each tick requires 15 minutes of computation, the total training time
 
 During training, checkpoints of the model are saved every thousand epochs, and shared on [Google Drive][google-drive-checkpoints].
 
+The last snapshot can be directly downloaded from [this link][google-drive-last-checkpoint].
+
 ### Generated Steam banners
 
 The generated images are diverse, in terms of configuration and color palettes. Interestingly, it seems that an anime character (with large eyes, hair, mouth, ear and nose) has been learnt.
@@ -140,6 +142,7 @@ The title position is usually correct, even though the letters appear as gibberi
 
 <!-- Definitions -->
 
+[google-drive-last-checkpoint]: <https://drive.google.com/file/d/1HXczmPE4PMBbhrPOshshnS0KFI4J6jbC/view?usp=sharing>
 [google-drive-checkpoints]: <https://drive.google.com/drive/folders/1bf17M5HtqdWYhxhCzo1YCEr9fdS84NO6>
 [google-drive-without-truncation]: <https://drive.google.com/open?id=1hCH4y1a9NhXkmgDc6mqnBRdwolsmttg2>
 [google-drive-with-truncation]: <https://drive.google.com/open?id=1zvnkPz0mKusrGW6TojFOrZjiqYAKi6sn>
