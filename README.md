@@ -126,12 +126,14 @@ The title position is usually correct, even though the letters appear as gibberi
 -   StyleGAN2:
     -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
     -   [Projecting images to latent space with StyleGAN2][projection-github-project]
-    -   My [fork][stylegan2-fork] of StyleGAN2 to project a batch of images, using any projection (original or extended)
 -   StyleGAN:
     -   [StyleGAN1](https://github.com/NVlabs/stylegan)
     -   [Steam-StyleGAN1](https://github.com/woctezuma/steam-stylegan)
 -   DCGAN:    
     -   [Steam-DCGAN](https://github.com/woctezuma/google-colab)
+-   Useful tools:
+    -   My [fork][stylegan2-fork] of StyleGAN2 to project a batch of images, using any projection (original or extended)
+    -   A [model-weight converter][weight-converter] from TensorFlow (`.pkl`) to PyTorch (`.pt`), with some instructions [here][weight-converter-instructions]
 -   Detailed tutorials:
     -   [This Waifu Does Not Exist](https://www.gwern.net/TWDNE)
     -   [Making Anime Faces With StyleGAN](https://www.gwern.net/Faces)
@@ -165,3 +167,6 @@ The title position is usually correct, even though the letters appear as gibberi
 [GanLatentDiscovery]: <https://github.com/anvoynov/GanLatentDiscovery>
 [closed-form-repository]: <https://github.com/genforce/sefa>
 [closed-form]: <https://github.com/rosinality/stylegan2-pytorch#closed-form-factorization-httpsarxivorgabs200706600>
+
+[weight-converter]: <https://github.com/rosinality/stylegan2-pytorch>
+[weight-converter-instructions]: <https://github.com/rosinality/stylegan2-pytorch/issues/52>
