@@ -133,12 +133,10 @@ The title position is usually correct, even though the letters appear as gibberi
 -   Detailed tutorials:
     -   [This Waifu Does Not Exist](https://www.gwern.net/TWDNE)
     -   [Making Anime Faces With StyleGAN](https://www.gwern.net/Faces)
--   Preferably unsupervised discovery of latent directions:
-    - [Pidhorskyi, Stanislav, et al. *Adversarial Latent Autoencoders*. CVPR 2020.][ALAE]
-    - [Härkönen, Erik, et al. *GANSpace: Discovering Interpretable GAN Controls*. 2020.][ganspace]
-    - [Shen, Yujun, et al. *Closed-Form Factorization of Latent Semantics in GANs*. 2020.][closed-form-repository] ([code][closed-form])
-    - [Shen, Yujun, et al. *Interpreting the Latent Space of GANs for Semantic Face Editing*. CVPR 2020.][interfacegan]
-    - [Voynov, Andrey, et al. *Unsupervised Discovery of Interpretable Directions in the GAN Latent Space*. 2020.][GanLatentDiscovery]
+-   Papers about the unsupervised discovery of latent directions:
+    - [Voynov, Andrey, et al. *Unsupervised Discovery of Interpretable Directions in the GAN Latent Space*. ICML 2020.][GanLatentDiscovery-paper] **([code][GanLatentDiscovery])**
+    - [Härkönen, Erik, et al. *GANSpace: Discovering Interpretable GAN Controls*. arXiv 2020.][ganspace-paper] **([code][ganspace])**
+    - [Shen, Yujun, et al. *Closed-Form Factorization of Latent Semantics in GANs*. arXiv 2020.][closed-form-paper] **([code][closed-form])**
 
 <!-- Definitions -->
 
@@ -153,6 +151,11 @@ The title position is usually correct, even though the letters appear as gibberi
 
 [StyleGAN2_training]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2/blob/master/StyleGAN2_training.ipynb>
 [StyleGAN2_image_sampling]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2/blob/master/StyleGAN2_image_sampling.ipynb>
+
+[GanLatentDiscovery-paper]: <https://arxiv.org/abs/2002.03754>
+[ganspace-paper]: <https://arxiv.org/abs/2004.02546>
+[closed-form-paper]: <https://arxiv.org/abs/2007.06600>
+
 [interfacegan]: <https://github.com/genforce/interfacegan>
 [ganspace]: <https://github.com/harskish/ganspace>
 [ALAE]: <https://github.com/podgorskiy/ALAE>
