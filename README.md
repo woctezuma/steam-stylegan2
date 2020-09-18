@@ -124,6 +124,7 @@ The title position is usually correct, even though the letters appear as gibberi
 -   StyleGAN2:
     -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
     -   [Projecting images to latent space with StyleGAN2][projection-github-project]
+    -   My [fork][stylegan2-fork] of StyleGAN2 to project a batch of images, using any projection (original or extended)
 -   StyleGAN:
     -   [StyleGAN1](https://github.com/NVlabs/stylegan)
     -   [Steam-StyleGAN1](https://github.com/woctezuma/steam-stylegan)
@@ -146,7 +147,9 @@ The title position is usually correct, even though the letters appear as gibberi
 [google-drive-with-truncation]: <https://drive.google.com/open?id=1zvnkPz0mKusrGW6TojFOrZjiqYAKi6sn>
 [google-drive-truncation-comparison]: <https://drive.google.com/drive/folders/1itOMCX6h62OWpUCBxmUWcrKh0lSXxSGQ>
 [projection-to-latent-space]: <https://drive.google.com/open?id=14Uz3SbOL0G4aLK1AmHye9bJCmOufDdbn>
+
 [projection-github-project]: <https://github.com/woctezuma/stylegan2-projecting-images>
+[stylegan2-fork]: <https://github.com/woctezuma/stylegan2/tree/tiled-projector>
 
 [StyleGAN2_training]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2/blob/master/StyleGAN2_training.ipynb>
 [StyleGAN2_image_sampling]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2/blob/master/StyleGAN2_image_sampling.ipynb>
