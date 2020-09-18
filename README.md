@@ -134,7 +134,7 @@ The title position is usually correct, even though the letters appear as gibberi
     -   [This Waifu Does Not Exist](https://www.gwern.net/TWDNE)
     -   [Making Anime Faces With StyleGAN](https://www.gwern.net/Faces)
 -   Papers about the unsupervised discovery of latent directions:
-    - [Voynov, Andrey, et al. *Unsupervised Discovery of Interpretable Directions in GAN Latent Space*. ICML 2020.][GanLatentDiscovery-paper] **([code][GanLatentDiscovery])**
+    - [Voynov, Andrey, et al. *Unsupervised Discovery of Interpretable Directions in Latent Space*. ICML 2020.][GanLatentDiscovery-paper] **([code][GanLatentDiscovery])**
     - [Härkönen, Erik, et al. *GANSpace: Discovering Interpretable GAN Controls*. arXiv 2020.][ganspace-paper] **([code][ganspace])**
     - [Shen, Yujun, et al. *Closed-Form Factorization of Latent Semantics in GANs*. arXiv 2020.][closed-form-paper] **([code][closed-form])**
 
