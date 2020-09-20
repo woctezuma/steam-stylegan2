@@ -8,7 +8,9 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 
 -   Acquire the data, e.g. as a snapshot called `256x256.zip` in [another of my repositories](https://github.com/woctezuma/download-steam-banners-data),
 -   Run [`StyleGAN2_training.ipynb`][StyleGAN2_training] to train a StyleGAN2 model from scratch,
+[![Open In Colab][colab-badge]][StyleGAN2_training]
 -   Run [`StyleGAN2_image_sampling.ipynb`][StyleGAN2_image_sampling] to generate images with a trained StyleGAN2 model,
+[![Open In Colab][colab-badge]][StyleGAN2_image_sampling]
 -   To automatically resume training from the latest checkpoint, you will have to use [my fork](https://github.com/woctezuma/stylegan2/tree/google-colab) of StyleGAN2.
 
 ## Data
@@ -173,3 +175,5 @@ The title position is usually correct, even though the letters appear as gibberi
 
 [weight-converter]: <https://github.com/rosinality/stylegan2-pytorch>
 [weight-converter-instructions]: <https://github.com/rosinality/stylegan2-pytorch/issues/52>
+
+[colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
