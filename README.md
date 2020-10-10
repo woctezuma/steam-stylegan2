@@ -2,7 +2,7 @@
 
 ![Examples of generated Steam banners](https://raw.githubusercontent.com/wiki/woctezuma/steam-stylegan2/img/generated_banners.jpg)
 
-The goal of this [Google Colab](https://colab.research.google.com/) notebook is to catpure the distribution of Steam banners and sample with a StyleGAN2.
+The goal of this [Google Colab](https://colab.research.google.com/) notebook is to capture the distribution of Steam banners and sample with a StyleGAN2.
 
 ## Usage
 
