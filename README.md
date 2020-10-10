@@ -128,7 +128,7 @@ The title position is usually correct, even though the letters appear as gibberi
 ## References
 
 -   StyleGAN2:
-    -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
+    -   [StyleGAN2][stylegan2-official-repository] / [StyleGAN2-ADA][stylegan2-ada-official-repository]
     -   [Projecting images to latent space with StyleGAN2][projection-github-project]
 -   StyleGAN:
     -   [StyleGAN1](https://github.com/NVlabs/stylegan)
@@ -147,6 +147,9 @@ The title position is usually correct, even though the letters appear as gibberi
     - [Shen, Yujun, et al. *Closed-Form Factorization of Latent Semantics in GANs*. arXiv 2020.][closed-form-paper] **([code][closed-form])**
 
 <!-- Definitions -->
+
+[stylegan2-official-repository]: <https://github.com/NVlabs/stylegan2>
+[stylegan2-ada-official-repository]: <https://github.com/NVlabs/stylegan2-ada>
 
 [google-drive-last-checkpoint-pytorch]: <https://drive.google.com/file/d/1-2pWoqvSysNuYS8acfhbU9ql4Si09hyf/view?usp=sharing>
 [google-drive-last-checkpoint]: <https://drive.google.com/file/d/1HXczmPE4PMBbhrPOshshnS0KFI4J6jbC/view?usp=sharing>
