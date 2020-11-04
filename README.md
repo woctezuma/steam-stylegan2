@@ -15,6 +15,8 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 [![Open In Colab][colab-badge]][StyleGAN2_metrics]
 -   Run [`StyleGAN2_latent_discovery.ipynb`][StyleGAN2_latent_discovery] to discover meaningful latent directions,
 [![Open In Colab][colab-badge]][StyleGAN2_latent_discovery]
+-   Run [`Ganspace_colab_for_steam.ipynb`][Ganspace_colab_for_steam] to specifically use GANSpace for discovery,
+[![Open In Colab][colab-badge]][Ganspace_colab_for_steam]
 -   To automatically resume training from the latest checkpoint, you will have to use [my fork](https://github.com/woctezuma/stylegan2/tree/google-colab) of StyleGAN2.
 
 ## Data
@@ -170,6 +172,7 @@ The title position is usually correct, even though the letters appear as gibberi
 [StyleGAN2_image_sampling]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2/blob/master/StyleGAN2_image_sampling.ipynb>
 [StyleGAN2_metrics]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2/blob/master/StyleGAN2_metrics.ipynb>
 [StyleGAN2_latent_discovery]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2/blob/master/StyleGAN2_latent_discovery.ipynb>
+[Ganspace_colab_for_steam]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2/blob/ganspace/Ganspace_colab_for_steam.ipynb>
 
 [GanLatentDiscovery-paper]: <https://arxiv.org/abs/2002.03754>
 [ganspace-paper]: <https://arxiv.org/abs/2004.02546>
