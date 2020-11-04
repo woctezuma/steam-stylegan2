@@ -11,13 +11,15 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 [![Open In Colab][colab-badge]][StyleGAN2_training]
 -   Run [`StyleGAN2_image_sampling.ipynb`][StyleGAN2_image_sampling] to generate images with a trained StyleGAN2 model,
 [![Open In Colab][colab-badge]][StyleGAN2_image_sampling]
+-   To automatically resume training from the latest checkpoint, you will have to use [my fork](https://github.com/woctezuma/stylegan2/tree/google-colab) of StyleGAN2.
+
+For a more thorough analysis of the trained model:
 -   Run [`StyleGAN2_metrics.ipynb`][StyleGAN2_metrics] to compute metrics (FID, PPL, etc.),
 [![Open In Colab][colab-badge]][StyleGAN2_metrics]
 -   Run [`StyleGAN2_latent_discovery.ipynb`][StyleGAN2_latent_discovery] to discover meaningful latent directions,
 [![Open In Colab][colab-badge]][StyleGAN2_latent_discovery]
 -   Run [`Ganspace_colab_for_steam.ipynb`][Ganspace_colab_for_steam] to specifically use GANSpace for discovery,
 [![Open In Colab][colab-badge]][Ganspace_colab_for_steam]
--   To automatically resume training from the latest checkpoint, you will have to use [my fork](https://github.com/woctezuma/stylegan2/tree/google-colab) of StyleGAN2.
 
 ## Data
 
