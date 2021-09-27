@@ -29,7 +29,7 @@ Our dataset (14k images) has a similar size to the [FFHQ dataset](https://github
 
 ## Training parameters
 
-The StyleGAN2 model is trained with configuration `e` to accomodate for Google Colab's memory constraints.
+The StyleGAN2 model is trained with configuration `e` to accommodate for Google Colab's memory constraints.
 
 Training parameters are arbitrarily chosen, with an inspiration from the values detailed in the StyleGAN2 README for the FFHQ dataset:
 -   `--mirror-augment=true`: data augmentation with horitontal mirroring,
